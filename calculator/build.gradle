@@ -10,7 +10,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "2.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -34,14 +34,14 @@ ext {
     bintrayRepo = 'Saisha'
 
     // Name which will be visible on bintray
-    bintrayName = 'poojasaid'
+    bintrayName = 'MyPublishLibrary'
 
     // Library Details
     publishedGroupId = 'com.example.calculator'
     libraryName = 'calculator'
     artifact = 'calculator'
     libraryDescription = 'Cool Library'
-    libraryVersion = "1.0"
+    libraryVersion = "2.0.1"
 
     // Repository Link (For e.g. GitHub repo)
     siteUrl = 'https://github.com/PoojaSaid/My-Library'
@@ -73,7 +73,7 @@ install {
                 artifactId = artifact
                 name libraryName
                 description = libraryDescription
-//                url siteUrl
+                url siteUrl
 
                 licenses {
                     license {
